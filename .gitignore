@@ -1,3 +1,5 @@
 .idea/
 .env
 respCh.json
+reset_state.json
+reset_state.json.tmp
