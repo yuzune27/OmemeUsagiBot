@@ -94,6 +94,8 @@ def chat(input, message_history, bot_id: 1548593427208339476)
         author_name = "みるさん"
       elsif message[:author_id] == 1479254664674283782
         author_name = "とうさん"
+      elsif message[:author_id] == 1478484012681924860
+        author_name = "おひめさま"
       end
       conversation << { role: "user", content: "[#{author_name}]>> #{content}" }
     end
